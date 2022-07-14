@@ -1,3 +1,5 @@
+package basic
+
 open class Dog {
     open var age: Int = 0
 

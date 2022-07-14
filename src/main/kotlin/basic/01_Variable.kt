@@ -1,3 +1,5 @@
+package basic
+
 var x = 5 // 탑레벨에 위치한 변수 (클래스나 함수에 속하지 않음)
 
 fun main() {

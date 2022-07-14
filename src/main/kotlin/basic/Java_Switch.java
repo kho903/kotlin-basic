@@ -1,3 +1,5 @@
+package basic;
+
 public class Java_Switch {
 
 	public static void main(String[] args) {

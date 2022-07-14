@@ -28,7 +28,7 @@ fun printSum(a: Int, b: Int) /*: Unit*/ {
 
 
 // 디폴트 파라미터
-// 해당 메소드와 같은 자바의 클래스 : Message
+// 해당 메소드와 같은 자바의 클래스 : basic.Message
 fun greeting(message: String = "안녕하세요!!") {
     println(message)
 }

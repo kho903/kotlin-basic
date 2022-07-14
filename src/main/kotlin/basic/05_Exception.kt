@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     Thread.sleep(1)
 

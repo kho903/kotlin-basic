@@ -1,3 +1,5 @@
+package basic;
+
 public class Logger {
 	public void log(String level, String message) {
 		if (level == null || level.length() == 0) {

@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     // 컴파일 에러
 //    val a : String = null

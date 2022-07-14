@@ -1,3 +1,7 @@
+package basic
+
+import basic.Java_NullSafety
+
 fun getNullStr(): String? = null
 
 fun getLengthIfNotNull(str: String?) = str?.length ?: 0
@@ -20,6 +24,6 @@ fun main() {
 //    val d = c!!.length // NPE
 
     // kotlin에서 java 코드를 호출 할 때에는 항상 nullable에 대한 가능성을 염두해 두어야 함
-//    println(Java_NullSafety.getNullStr().length) // NPE
+//    println(basic.Java_NullSafety.getNullStr().length) // NPE
     println(Java_NullSafety.getNullStr()?.length ?: 0)
 }

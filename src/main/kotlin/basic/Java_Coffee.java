@@ -1,3 +1,5 @@
+package basic;
+
 public class Java_Coffee {
 	private boolean isIced;
 
